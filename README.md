@@ -108,3 +108,27 @@ public class FirstController {
 }
 
 ```
+
+*add add View Resolver
+View Resolver : 
+
+```
+<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/views/" />
+        <property name="suffix" value=".jsp" />
+    </bean>
+    
+```
+* add welcome Controler & welcome jsp
+
+```
+@Controller
+public class welcome {
+
+    @RequestMapping(value = "/welcome-index")
+    public String index(){
+        return "welcome";
+    }
+}
+
+```
