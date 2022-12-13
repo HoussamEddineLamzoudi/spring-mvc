@@ -87,3 +87,24 @@ Spring mvc project
 </beans>
 
 ```
+
+* add ur first controller
+
+```
+package com.spring.Controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class FirstController {
+
+    @RequestMapping(value = "/api")
+    @ResponseBody
+    public String login(){
+        return "hello-spring";
+    }
+}
+
+```
