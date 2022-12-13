@@ -111,6 +111,10 @@ public class FirstController {
 
 *add add View Resolver
 View Resolver : 
+```
+//return "/WEB-INF/views/demo.jsp";
+return "demo";
+```
 
 ```
 <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
