@@ -12,5 +12,6 @@
 </head>
 <body>
     <h1>welcome........^^</h1>
+<a href="/login-index"><button>go to login</button></a>
 </body>
 </html>
